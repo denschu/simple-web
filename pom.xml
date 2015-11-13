@@ -83,6 +83,7 @@
                           </execution>
                         </executions>
                         <configuration>
+                            <group>application/denschu</group>
                             <mappings>
                                 <mapping>
                                     <directory>/opt/standalone/${project.name}</directory>
