@@ -73,6 +73,15 @@
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>rpm-maven-plugin</artifactId>
                         <version>2.1.4</version>
+                        <extensions>true</extensions>
+                        <executions>
+                          <execution>
+                            <phase>package</phase>
+                            <goals>
+                              <goal>attached-rpm</goal>
+                            </goals>
+                          </execution>
+                        </executions>
                         <configuration>
                             <mappings>
                                 <mapping>
